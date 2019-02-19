@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p.newline {
+  white-space: pre;
+}
+p.notnewline {
+  white-space: normal;
+  word-break: break-all;
+} 
