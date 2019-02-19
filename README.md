@@ -1,16 +1,34 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Development Environment
+This was developed on Windows with the backend API service developed in Visual Studio 2017
+and the  frontend website developed in Visual Studio Code
 
-In the project directory, you can run:
+## Approach
+I created the app this way to showcase my ability to do C#, REST, Javascript, Typescript, React and Git.
+
+The backend utilizes injection, command/command handlers, and has unit tests. The backend also has a static memory 10000 array which is (slightly) faster than generating a dynamic memory array before shuffling when obtaining a 10000 item shuffled array. I used the Fisher Yates shuffler algorithm.
+
+I thought it would be neat to add the ability to both shuffle and sort the array, and obtain the output in a few different ways and formats, so I added this additional functionality.
+
+## Running the app
+
+### Run Backend
+Download the https://github.com/johnnyboldt/ArrayGenerator
+Open in Visual Studio (I use Visual Studio 2017) and run the app.
+Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000
+Ensure the PORT variable in this project's globals.tsx is the same xxxxx port number
 
 ### `npm start`
-
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm test`
 
@@ -27,18 +45,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Issues?
+Please do not hestitate to contact me at johnny.boldt@gmail.com

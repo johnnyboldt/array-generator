@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+p.newline {
+  white-space: pre;
+}
+p.notnewline {
+  white-space: normal;
+  word-break: break-all;
+} 
+
+.numbers {
+  height: 400px;
+  overflow-y : auto
+}
+
+.logo {
+  width: 600px
+}
