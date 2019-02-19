@@ -244,11 +244,11 @@ class App extends Component<{}, IMyState> {
               <Button variant={this.state.spaceDelimited ? "primary":"light"} onClick={() => this.toggleSpaceDelimited()}>Space</Button>
             </InputGroup>
           </Col>
-          <Col >
-            <InputGroup className="float-right"  style={{width: "502px"}}> {/* Width must be set for float-right to work -->*/}
+          <Col>
+            <InputGroup> {/* Width must be set for float-right to work -->*/}
             <CopyToClipboard text={this.state.array.join(this.getDelimiter())}>
               <Button variant="info">Copy Text To Clipboard <IoIosCopy /></Button>
-              </CopyToClipboard>
+            </CopyToClipboard>
               <Button variant="success"  onClick={() => this.download(this.state.array.join('\n'), 'file.csv', 'text/plain')}>Download .csv <IoMdDownload /></Button>
               <Button variant="success"  onClick={() => this.download(this.state.array.join(this.getDelimiter()), 'file.txt', 'text/plain')}>Download .txt <IoMdDownload /></Button>
             </InputGroup>
