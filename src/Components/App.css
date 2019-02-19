@@ -8,13 +8,13 @@ p.newline {
 p.notnewline {
   white-space: normal;
   word-break: break-all;
-} 
+}
 
 .numbers {
   height: 400px;
-  overflow-y : auto
+  overflow-y: auto;
 }
 
 .logo {
-  width: 600px
+  width: 600px;
 }
