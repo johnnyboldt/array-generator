@@ -18,8 +18,8 @@ Download the https://github.com/johnnyboldt/ArrayGenerator.<br>
 
 Open in Visual Studio (I use Visual Studio 2017) and run the app.<br>
 
-**Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000.
-Ensure the PORT variable in this project's globals.tsx is the same xxxxx port number**
+**Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000.**
+**Ensure the PORT variable in this project's globals.tsx is the same xxxxx port number**
 
 ### `npm start`
 Runs the app in the development mode.<br>
