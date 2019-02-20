@@ -24,6 +24,12 @@ Open in Visual Studio (I use Visual Studio 2017) and run the app.<br>
 **Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000.**<br />
 **Ensure the PORT variable in this project's globals.tsx is the same xxxxx port number!!!**
 
+### download node and npm install this webapp's packages.
+
+Install npm from https://nodejs.org/en/ <br/>
+Download https://github.com/johnnyboldt/array-generator <br/>
+Open command prompt, cd to array-generator location, and run 'npm install' <br/>
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
