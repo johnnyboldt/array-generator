@@ -33,7 +33,7 @@ Open command prompt, cd to array-generator directory, and run `npm install` to i
 
 ### Run the Frontend
 In command prompt, cd to array-generator directory, and run `npm start` to run the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. I have only tested locally in Chrome.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. App is only supported in Chrome. Firefox has a CORS issue (due to no domain for SSL cert?) and Edge has a bug in Copy Text to Clipboard.
 
 When the app loads you should see something like this:<br>
 ![alt text](https://github.com/johnnyboldt/array-generator/blob/master/public/screenshot.jpg)
@@ -51,6 +51,7 @@ If I was to continue building this app, I would:
 - [ ] Make the backend async to support multiple browser sessions.
 - [ ] Add some entity framework/SQL Server usage.
 - [ ] Add support for larger range than -15000 to 15000.
+- [ ] Add full support for Edge and Firefox.
 
 ## Issues?
 
