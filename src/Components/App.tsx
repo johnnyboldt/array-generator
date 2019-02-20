@@ -13,7 +13,8 @@ import { IoMdDownload } from "react-icons/io";
 import { IoIosCopy } from "react-icons/io";
 import CopyToClipboard from "react-copy-to-clipboard";
 import ArraySortType from "../Enums/ArraySortType";
-import { Globals } from "../globals";
+import Globals from "../globals";
+import Utils from "../utils";
 
 interface IMyState {
   array: string[];
@@ -202,21 +203,6 @@ class App extends Component<{}, IMyState> {
   }
 
   /**
-   * Downloads the given content into a file with given filename and content type
-   *
-   * @param content - The content to be in the downloaded file
-   * @param filename - The filename the downloaded file will have
-   * @param contentType - The content type the downloaded file will have
-   */
-  private download(content: string, fileName: string, contentType: string) {
-    var a = document.createElement("a");
-    var file = new Blob([content], { type: contentType });
-    a.href = URL.createObjectURL(file);
-    a.download = fileName;
-    a.click();
-  }
-
-  /**
    * Gets the numbers to display with appropriate formatting
    *
    * @returns A string containing the numbers to display
@@ -225,7 +211,7 @@ class App extends Component<{}, IMyState> {
     return this.state.array.join(this.getDelimiter());
   }
 
-  // React render jsx method
+  // React render jsx method. This project was auto-formatted with 'Prettier' extension
   public render() {
     return (
       <div className="App container">
@@ -338,7 +324,7 @@ class App extends Component<{}, IMyState> {
                 <Button
                   variant="success"
                   onClick={() =>
-                    this.download(
+                    Utils.download(
                       this.state.array.join("\r\n"),
                       "file.csv",
                       "text/plain"
@@ -350,7 +336,7 @@ class App extends Component<{}, IMyState> {
                 <Button
                   variant="success"
                   onClick={() =>
-                    this.download(
+                    Utils.download(
                       this.getNumbersToDisplay(),
                       "file.txt",
                       "text/plain"

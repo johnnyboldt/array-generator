@@ -1,7 +1,7 @@
 import ArraySortType from "./Enums/ArraySortType";
 
 // Holds default values, error messages, and constants.
-export class Globals {
+export default class Globals {
   // Urls
   public static readonly PORT = "44334"; //IMPORTANT! This will need to be updated with whatever port the ArrayGenerator backend uses when you run it
   public static readonly SHUFFLEDARRAY_ROOT_URL = `https://localhost:${
