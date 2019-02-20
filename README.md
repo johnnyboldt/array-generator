@@ -23,14 +23,16 @@ Open in Visual Studio (I use Visual Studio 2017) and run the app.<br>
 **Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000.**<br>
 **Ensure the PORT variable in this project's globals.tsx is the same xxxxx port number!!!**
 
-### Download node and npm install this webapp's packages.
+### Download node and front end app
 
 Install npm from https://nodejs.org/en/ <br>
 Download https://github.com/johnnyboldt/array-generator <br>
-Open command prompt, cd to array-generator location, and run 'npm install' to install the node packages.<br>
+
+### Install the package dependencies
+Open command prompt, cd to array-generator location, and run `npm install` to install the node packages.<br>
 
 ### Run the Frontend
-In command prompt, run 'npm start' array-generator location in the to run the app in the development mode.<br>
+In command prompt, run `npm start` array-generator location in the to run the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 When the app loads you should see something like this:<br>
@@ -40,7 +42,7 @@ The app provides the ability to:
 - sort the array in different ways (including shuffle)
 - specify different combinations of delimiters
 - copy the array to your clipboard
-- download the array in two different filetypes.
+- download the array in two different filetypes
 
 ## Additional potential work
 
