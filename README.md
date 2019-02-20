@@ -36,7 +36,7 @@ Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 When the app loads you should see something like this:<br>
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/johnnyboldt/array-generator/blob/master/public/screenshot.jpg)
 
 ## Available Scripts
 
