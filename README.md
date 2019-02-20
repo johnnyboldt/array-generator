@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Development Environment
 
-This was developed on Windows with the backend API service developed in Visual Studio 2017 and the frontend website was developed in Visual Studio Code on Windows 10.
+This was developed on Windows with the backend API service developed in Visual Studio 2017 and the frontend website was developed in Visual Studio Code on Windows 10 and tested with Chrome.
 
 ## Approach
 
@@ -33,7 +33,7 @@ Open command prompt, cd to array-generator directory, and run `npm install` to i
 
 ### Run the Frontend
 In command prompt, cd to array-generator directory, and run `npm start` to run the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. I have only tested locally in Chrome.
 
 When the app loads you should see something like this:<br>
 ![alt text](https://github.com/johnnyboldt/array-generator/blob/master/public/screenshot.jpg)
