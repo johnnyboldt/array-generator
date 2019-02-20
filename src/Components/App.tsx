@@ -325,7 +325,7 @@ class App extends Component<{}, IMyState> {
                   variant="success"
                   onClick={() =>
                     Utils.download(
-                      this.state.array.join("\r\n"),
+                      this.state.array.join("\r\n"), // Just one row, no headers.
                       "file.csv",
                       "text/plain"
                     )
