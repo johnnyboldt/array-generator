@@ -21,22 +21,22 @@ Download the https://github.com/johnnyboldt/ArrayGenerator.<br>
 
 Open in Visual Studio (I use Visual Studio 2017) and run the app.<br>
 
-**Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000.**<br />
+**Note the xxxxx port number in the https://localhost:xxxxx/api/ShuffledArray/?minimumNumber=1&maximumNumber=10000.**<br>
 **Ensure the PORT variable in this project's globals.tsx is the same xxxxx port number!!!**
 
 ### download node and npm install this webapp's packages.
 
-Install npm from https://nodejs.org/en/ <br/>
-Download https://github.com/johnnyboldt/array-generator <br/>
-Open command prompt, cd to array-generator location, and run 'npm install' <br/>
+Install npm from https://nodejs.org/en/ <br>
+Download https://github.com/johnnyboldt/array-generator <br>
+Open command prompt, cd to array-generator location, and run 'npm install' <br>
 
 ### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+When the app loads you should see something like this:<br>
+![alt text](http://url/to/img.png)
 
 ## Available Scripts
 
