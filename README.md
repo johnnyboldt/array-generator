@@ -29,10 +29,10 @@ Install npm from https://nodejs.org/en/ <br>
 Download https://github.com/johnnyboldt/array-generator <br>
 
 ### Install the package dependencies
-Open command prompt, cd to array-generator location, and run `npm install` to install the node packages.<br>
+Open command prompt, cd to array-generator directory, and run `npm install` to install the node packages.<br>
 
 ### Run the Frontend
-In command prompt, run `npm start` array-generator location in the to run the app in the development mode.<br>
+In command prompt, cd to array-generator directory, and run `npm start` to run the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 When the app loads you should see something like this:<br>
