@@ -29,14 +29,13 @@ Install npm from https://nodejs.org/en/ <br>
 Download https://github.com/johnnyboldt/array-generator <br>
 Open command prompt, cd to array-generator location, and run 'npm install' to install the node packages.<br>
 
-### `npm start`
-
-Runs the app in the development mode.<br>
+### Run the Frontend
+In command prompt, run 'npm start' array-generator location in the to run the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 When the app loads you should see something like this:<br>
 ![alt text](https://github.com/johnnyboldt/array-generator/blob/master/public/screenshot.jpg)
-The app provides the ability to put in a different Minimum and Maximum number, sort the array in different ways, specify different combinations of delimiters, and copy the array to your clipboard or download the array in two different filetypes.
+The app provides the ability to put in a different Minimum and Maximum number, sort the array in different ways, specify different combinations of delimiters, copy the array to your clipboard, and download the array in two different filetypes.
 
 ## Additional potential work
 
