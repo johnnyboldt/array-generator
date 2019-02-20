@@ -36,11 +36,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 When the app loads you should see something like this:<br>
 ![alt text](https://github.com/johnnyboldt/array-generator/blob/master/public/screenshot.jpg)
 The app provides the ability to:
-> specify a different minimum and maximum number
-> sort the array in different ways (including shuffle)
-> specify different combinations of delimiters
-> copy the array to your clipboard
-> download the array in two different filetypes.
+- specify a different minimum and maximum number
+- sort the array in different ways (including shuffle)
+- specify different combinations of delimiters
+- copy the array to your clipboard
+- download the array in two different filetypes.
 
 ## Additional potential work
 
